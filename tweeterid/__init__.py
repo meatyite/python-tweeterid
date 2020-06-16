@@ -2,7 +2,7 @@ import requests
 import json
 
 
-def handle_to_id(handle : str) -> int:
+def handle_to_id(handle: str) -> int:
     Id = requests.post(
         'https://tweeterid.com/ajax.php',
         data={
